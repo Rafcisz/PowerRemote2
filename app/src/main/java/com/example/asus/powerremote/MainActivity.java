@@ -80,8 +80,9 @@ public class MainActivity extends Activity {
 
     private void setupIU() {
         final TextView statusUpdate = (TextView) findViewById(R.id.result);
-        final Button connect = (Button)findViewById(R.id.connectBtn);
-        final Button disconnect = (Button)findViewById(R.id.disconnectBtn);
+        connect = (Button)findViewById(R.id.connectBtn);
+        disconnect = (Button)findViewById(R.id.disconnectBtn);
+        logo = (ImageView)findViewById(R.id.logo);
 
 
         disconnect.setVisibility(View.GONE);
